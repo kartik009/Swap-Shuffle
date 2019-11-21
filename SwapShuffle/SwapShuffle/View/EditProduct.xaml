@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SwapShuffle.View.EditProduct">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+            <!--<Entry Placeholder="PId:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PId" />-->
+            <Entry Placeholder="Product Name :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PName" />
+            <Entry Placeholder="CId:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CId" />
+            <Entry Placeholder="description:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
+            <Entry Placeholder="Product price :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_price" />
+
+            <Button Text="Save" Clicked="SaveProduct" HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="Maroon" TextColor="White" x:Name="saveBtn" VerticalOptions="End"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

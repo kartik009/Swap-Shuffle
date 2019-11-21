@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SwapShuffle.View.UserProfilePage">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand">
+            <Entry Placeholder="User Name :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UName" />
+            <Entry Placeholder="Mobile No :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UNo" />
+            <Entry Placeholder="Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
+            <Entry Placeholder="Confirm Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CPD" />
+
+            <Button Text="Edit" Clicked="EditUser" HorizontalOptions="FillAndExpand" 
+                    BackgroundColor="Maroon" TextColor="White" x:Name="Btn_Edit" VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

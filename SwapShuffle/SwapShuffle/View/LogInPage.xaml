@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:SwapShuffle.Validator"
+             x:Class="SwapShuffle.View.LogInPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label
+                Margin="0,0,0,50"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="LogIn"
+                TextColor="Cyan" />
+
+            <Entry 
+                x:Name="Et_userid" 
+                Margin="0,0,0,5" 
+                Keyboard="Numeric"
+                Placeholder="20xxxxxxxx"
+                WidthRequest="300">
+                <Entry.Behaviors>
+                    <local:SidValidationBehavior/>
+                </Entry.Behaviors>
+            </Entry>
+                
+            <!--<Entry
+                x:Name="Et_userid"
+                Margin="0,0,0,5"
+                Keyboard="Numeric"
+                Placeholder="20xxxxxxx"
+                WidthRequest="300" >
+                <Entry.Behaviors>
+                    <local:SidValidationBehavior/>
+                </Entry.Behaviors>
+            </Entry>-->
+            <Entry
+                x:Name="Et_pass"
+                Margin="0,0,0,5"
+                IsPassword="True"
+                Placeholder="Password"
+                WidthRequest="300" />
+
+
+            <Button
+                x:Name="btn_Login"
+                Margin="0,0,0,30"
+                BackgroundColor="DarkBlue"
+                Clicked="Btn_Login_Clicked"
+                HeightRequest="35"
+                Text="LogIn"
+                TextColor="White"
+                WidthRequest="70" />
+            <!--<Button x:Name="btn_Clear" Text="Clear" HeightRequest="35" WidthRequest="65" Clicked="Btn_Clear_Clicked"/>-->
+
+
+            <Label HorizontalTextAlignment="Center" TextColor="ForestGreen">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span x:Name="sp_forgetPass" FontSize="Medium">Forget Password?</Span>
+                        <Span x:Name="sp_NewUser" FontSize="Medium">New User</Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

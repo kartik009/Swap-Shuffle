@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:SwapShuffle.Validator"
+             mc:Ignorable="d"
+             x:Class="SwapShuffle.View.NewUSerPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label
+                Margin="0,0,0,50"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="Registration"
+                TextColor="Cyan" />
+
+
+            <Entry
+                x:Name="Et_Id"
+                Margin="0,0,0,5"
+                Placeholder="Enter your Student ID"
+                Keyboard="Numeric"
+                WidthRequest="300" >
+                <Entry.Behaviors>
+                    <local:SidValidationBehavior />
+                </Entry.Behaviors>
+            </Entry>
+
+            <Entry
+                x:Name="Et_name"
+                Margin="0,0,0,5"
+                Placeholder="Enter your Name"
+                WidthRequest="300" />
+
+            <Entry
+                x:Name="Et_Phno"
+                Margin="0,0,0,5"
+                Placeholder="Enter your Contact No."
+                Keyboard="Numeric"
+                WidthRequest="300" >
+                <Entry.Behaviors>
+                    <local:PhoneNumberValidationBehavior />
+                </Entry.Behaviors>
+            </Entry>
+
+
+            <Entry
+                x:Name="Et_pass"
+                Margin="0,0,0,5"
+                IsPassword="True"
+                Placeholder="Choose your Password"
+                WidthRequest="300" >
+                <Entry.Behaviors>
+                    <local:PasswordValidationBehavior />
+                </Entry.Behaviors>
+            </Entry>
+
+            <Entry
+                Margin="0,0,0,5"
+                IsPassword="True"
+                Placeholder="Confirm Password"
+                WidthRequest="300" >
+                <Entry.Behaviors>
+                    <local:PasswordValidationBehavior />
+                    <local:CompareValidationBehavior BindingContext="{x:Reference Et_pass}" Text="{Binding Text}"/>
+                </Entry.Behaviors>
+            </Entry>
+
+            <Button
+                x:Name="btn_NewUser"
+                Margin="0,0,0,30"
+                BackgroundColor="DarkBlue"
+                Clicked="Btn_NewUser_Clicked"
+                HeightRequest="35"
+                Text="Next"
+                TextColor="White"
+                WidthRequest="70" />
+
+
+            <Label HorizontalTextAlignment="Center" TextColor="ForestGreen" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
+
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SwapShuffle.View.MasterPageMain">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <Grid BackgroundColor="Transparent">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Image
+                        Aspect="AspectFill"
+                        BackgroundColor="LightPink"
+                        Source="bg.png" />
+                    <StackLayout
+                        Padding="0,20,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand">
+                        <Image x:Name="Img_User"
+                            Aspect="AspectFill"
+                            HeightRequest="85"
+                            Source="profile.png"
+                            WidthRequest="85"
+                               >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="OnImageNameTapped"
+                                    NumberOfTapsRequired="1" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label
+                            FontSize="Large"
+                            Text="20xxxxxxx"
+                            TextColor="White" />
+                    </StackLayout>
+                </Grid>
+                <StackLayout
+                    Grid.Row="1"
+                    Margin="20,20,20,0"
+                    Spacing="15">
+                    <ListView
+                        x:Name="navigationDrawerList"
+                        BackgroundColor="#e8e8e8"
+                        ItemSelected="OnMenuItemSelected"
+                        RowHeight="60"
+                        SeparatorVisibility="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <!--  Main design for our menu items  -->
+                                    <StackLayout
+                                        Padding="20,10,0,10"
+                                        Orientation="Horizontal"
+                                        Spacing="20"
+                                        VerticalOptions="FillAndExpand">
+                                        <!--<Image
+                                            HeightRequest="40"
+                                            Source="{Binding Icon}"
+                                            VerticalOptions="Center"
+                                            WidthRequest="40" />-->
+                                        <Label
+                                            FontSize="Medium"
+                                            Text="{Binding Title}"
+                                            TextColor="Black"
+                                            VerticalOptions="Center" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Grid>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

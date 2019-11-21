@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:SwapShuffle.Validator"
+             x:Class="SwapShuffle.View.ForgetPassPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label
+                Margin="0,0,0,50"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="Forget Password"
+                TextColor="Cyan" />
+
+                <Entry
+                    x:Name="Et_id"
+                    Margin="0,0,0,5"
+                    Placeholder="Enter Student Id"
+                    Keyboard="Numeric"
+                    WidthRequest="300" >
+                    <Entry.Behaviors>
+                        <local:SidValidationBehavior/>
+                    </Entry.Behaviors>
+                </Entry>
+                <Button Text="Next" x:Name="Bt_next" Clicked="Bt_next_Clicked" />
+
+                <Label HorizontalTextAlignment="Center" TextColor="ForestGreen" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
+
+                </Label>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
