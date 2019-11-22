@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj": {}
+    "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj": {
+    "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj",
         "projectName": "SwapShuffle.iOS",
-        "projectPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj",
+        "projectPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.iOS\\SwapShuffle.iOS.csproj",
         "packagesPath": "C:\\Users\\lakha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.iOS\\obj\\",
+        "outputPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
-                "projectPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj"
+              "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
+                "projectPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
+    "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj",
+        "projectUniqueName": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj",
         "projectName": "SwapShuffle",
-        "projectPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj",
+        "projectPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj",
         "packagesPath": "C:\\Users\\lakha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\obj\\",
+        "outputPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

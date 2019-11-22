@@ -1,1 +1,1 @@
-C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\SwapShuffle.UWP.csproj;x86
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\SwapShuffle.UWP.csproj;x86

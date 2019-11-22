@@ -9,13 +9,19 @@
         <StackLayout VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand">
             <!--<Entry Placeholder="PId:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PId" />-->
-            <Entry Placeholder="Product Name :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PName" />
-            <Entry Placeholder="CId:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CId" />
-            <Entry Placeholder="description:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
-            <Entry Placeholder="Product price :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_price" />
+            <Entry  Margin="0,0,0,5" WidthRequest="300"
+                    Placeholder="Product Name :"  HorizontalOptions="FillAndExpand" x:Name="Et_PName" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="CId:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CId" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="description:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="Product price :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_price" />
 
-            <Button Text="Save" Clicked="SaveProduct" HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="Maroon" TextColor="White" x:Name="saveBtn" VerticalOptions="End"/>
+            <Button  Margin="0,0,0,30"
+                BackgroundColor="DarkBlue" Text="Save" Clicked="SaveProduct"
+                HeightRequest="35" WidthRequest="70"
+                TextColor="White" x:Name="saveBtn" VerticalOptions="End"/>
 
         </StackLayout>
     </ContentPage.Content>

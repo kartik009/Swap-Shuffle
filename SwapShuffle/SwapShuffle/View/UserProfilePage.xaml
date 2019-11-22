@@ -8,13 +8,17 @@
     <ContentPage.Content>
         <StackLayout  VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand">
-            <Entry Placeholder="User Name :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UName" />
-            <Entry Placeholder="Mobile No :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UNo" />
-            <Entry Placeholder="Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
-            <Entry Placeholder="Confirm Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CPD" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="User Name :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UName" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="Mobile No :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_UNo" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
+            <Entry Margin="0,0,0,5" WidthRequest="300"
+                   Placeholder="Confirm Password :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_CPD" />
 
-            <Button Text="Edit" Clicked="EditUser" HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="Maroon" TextColor="White" x:Name="Btn_Edit" VerticalOptions="End"/>
+            <Button Text="Edit" Clicked="EditUser" Margin="0,0,0,30"
+                BackgroundColor="DarkBlue" HeightRequest="35" WidthRequest="70" TextColor="White" x:Name="Btn_Edit" VerticalOptions="End"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

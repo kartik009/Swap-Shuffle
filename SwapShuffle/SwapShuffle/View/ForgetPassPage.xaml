@@ -10,11 +10,14 @@
         <StackLayout>
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Label
-                Margin="0,0,0,50"
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
                 Text="Forget Password"
-                TextColor="Cyan" />
+                TextColor="#008fb3" />
+                <BoxView HeightRequest="3" 
+                     Margin="0,0,0,40"
+            BackgroundColor="#00b8e6" 
+            HorizontalOptions="FillAndExpand" ></BoxView>
 
                 <Entry
                     x:Name="Et_id"
@@ -28,7 +31,7 @@
                 </Entry>
                 <Button Text="Next" x:Name="Bt_next" Clicked="Bt_next_Clicked" />
 
-                <Label HorizontalTextAlignment="Center" TextColor="ForestGreen" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
+                <Label HorizontalTextAlignment="Center" TextColor="#00b8e6" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
 
                 </Label>
 

@@ -6,14 +6,20 @@
              mc:Ignorable="d"
              xmlns:local="clr-namespace:SwapShuffle.Validator"
              x:Class="SwapShuffle.View.LogInPage">
+    <!--<ContentPage.Resources>
+        <StyleSheet Source="../View/Styles.css" />
+    </ContentPage.Resources>-->
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Label
-                Margin="0,0,0,50"
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
-                Text="LogIn"
-                TextColor="Cyan" />
+                TextColor="#008fb3"
+                Text="LogIn"/>
+            <BoxView HeightRequest="3" 
+                     Margin="0,0,0,40"
+            BackgroundColor="#00b8e6" 
+            HorizontalOptions="FillAndExpand" ></BoxView>
 
             <Entry 
                 x:Name="Et_userid" 
@@ -25,7 +31,7 @@
                     <local:SidValidationBehavior/>
                 </Entry.Behaviors>
             </Entry>
-                
+
             <!--<Entry
                 x:Name="Et_userid"
                 Margin="0,0,0,5"
@@ -56,7 +62,7 @@
             <!--<Button x:Name="btn_Clear" Text="Clear" HeightRequest="35" WidthRequest="65" Clicked="Btn_Clear_Clicked"/>-->
 
 
-            <Label HorizontalTextAlignment="Center" TextColor="ForestGreen">
+            <Label HorizontalTextAlignment="Center" TextColor="#00b8e6">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span x:Name="sp_forgetPass" FontSize="Medium">Forget Password?</Span>

@@ -1999,11 +1999,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.Android\\SwapShuffle.Android.csproj",
+      "projectUniqueName": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.Android\\SwapShuffle.Android.csproj",
       "projectName": "SwapShuffle.Android",
-      "projectPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.Android\\SwapShuffle.Android.csproj",
+      "projectPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.Android\\SwapShuffle.Android.csproj",
       "packagesPath": "C:\\Users\\lakha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle.Android\\obj\\",
+      "outputPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2024,8 +2024,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
-              "projectPath": "C:\\Users\\lakha\\source\\repos\\SwapShuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj"
+            "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj": {
+              "projectPath": "C:\\Users\\lakha\\Source\\Repos\\Swap-Shuffle\\SwapShuffle\\SwapShuffle\\SwapShuffle.csproj"
             }
           }
         }

@@ -17,8 +17,15 @@ namespace SwapShuffle.View
             {
                 Navigation.PushModalAsync(new LogInPage());
             }
-           
+
             InitializeComponent();
+
+            Et_UName.Text = "Kartik Lakhani";
+            Et_UNo.Text = Convert.ToString(8866404551);
+            Et_PD.Text = "test";
+            Et_CPD.Text = "test";
+
+            this.Title = "Profile";
         }
 
         private void EditUser(object sender, EventArgs e)

@@ -66,8 +66,9 @@ namespace SwapShuffle.View
 
                         UserSettings.Uid = temp.Uid;
 
-                        // Navigation.PushModalAsync(new MasterDetailsPageItem());
-                        DisplayAlert("App Name", "Userd " + temp.Uid.ToString(), "Ok");
+                        //Navigation.PushModalAsync(new MasterDetailPage());
+                        Navigation.PopModalAsync();
+                        //DisplayAlert("App Name", "Userd " + temp.Uid.ToString(), "Ok");
 
                     }
                     else

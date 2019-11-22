@@ -20,6 +20,7 @@ namespace SwapShuffle.View
         public EditProduct()
         {
             InitializeComponent();
+            this.Title = "Add Product";
         }
 
         public EditProduct(Product product)
@@ -42,7 +43,7 @@ namespace SwapShuffle.View
             details.p_datetime = DateTime.Now;
 
             saveBtn.Text = "Update";
-            this.Title = "Edit Employee";
+            this.Title = "Edit Product";
         }
 
 

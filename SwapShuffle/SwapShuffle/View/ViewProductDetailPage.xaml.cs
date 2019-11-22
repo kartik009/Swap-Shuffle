@@ -27,7 +27,7 @@ namespace SwapShuffle.View
         private async void Btn_Buy_Clicked(object sender, System.EventArgs e)
         {
             //Request Add To interestedTable 
-            bool res = await DisplayAlert("Message", "Do you want to delete employee?", "Ok", "Cancel");
+            bool res = await DisplayAlert("Message", "Do you want to Buy Product?", "Ok", "Cancel");
             if(res)
                 await Navigation.PopToRootAsync();
             else

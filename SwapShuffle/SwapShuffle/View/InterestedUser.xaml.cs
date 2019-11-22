@@ -36,6 +36,8 @@ namespace SwapShuffle.View
                 new User{ Uid = 201812046, Name ="admin", Pass = "admin" },
             };
 
+            this.Title = "Interested User";
+
             UserList.ItemsSource = users;
         }
 
@@ -54,7 +56,7 @@ namespace SwapShuffle.View
 
             //Entry in Histroy 
 
-            DisplayAlert("Message", "Do you want to delete employee?", "Ok");
+            DisplayAlert("Message", "Do you want to Sell Product To "+ID+"?", "Ok");
 
             Navigation.PopToRootAsync();
         }

@@ -84,7 +84,7 @@ namespace SwapShuffle.View
 
         private async void DeleteProduct(object sender, EventArgs e)
         {
-            bool res = await DisplayAlert("Message", "Do you want to delete employee?", "Ok", "Cancel");
+            bool res = await DisplayAlert("Message", "Do you want to delete Product?", "Ok", "Cancel");
             if (res)
             {
                 var menu = sender as MenuItem;
@@ -92,7 +92,7 @@ namespace SwapShuffle.View
                 //DependencyService.Get<ISQLite>().DeleteProduct(details.Id);
                 products.Remove(details);
                 MessagingCenter.Send<Product>(details, "DeleteProduct1");
-                PopulateProductList();
+                //PopulateProductList();
             }
         }
     }

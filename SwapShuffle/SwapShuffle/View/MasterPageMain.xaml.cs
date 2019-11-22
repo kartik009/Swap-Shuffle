@@ -26,6 +26,12 @@ namespace SwapShuffle.View
             InitializeComponent();
             temp = new User();
 
+            ToolbarItem toolbarItem = new ToolbarItem() { Name = "iconexample", IconImageSource = "Logo.jpg", Priority = 1, Order = ToolbarItemOrder.Primary };
+
+            this.ToolbarItems.Add(toolbarItem);
+
+            //((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.AliceBlue;
+
 
             temp.Uid = UserSettings.Uid;
 
@@ -82,7 +88,10 @@ namespace SwapShuffle.View
             navigationDrawerList.ItemsSource = AppUsermenuList;
 
             // Initial navigation, this can be used for our home page  
-            Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ViewProductPage)));
+            //Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(ViewProductPage)));
+            var page = (Page)Activator.CreateInstance(typeof(ViewProductPage));
+            page.Title = "Browse Product";
+            Detail = new NavigationPage(page);
         }
         // Event for Menu Item selection, here we are going to handle navigation based  
         // on user selection in menu ListView  
@@ -93,6 +102,23 @@ namespace SwapShuffle.View
             {
                 //Code to execute on tapped event
                 Detail = new NavigationPage(new UserProfilePage(UserSettings.Uid));
+                IsPresented = false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void HandleTapped(object sender, EventArgs args)
+        {
+            try
+            {
+                //Code to execute on tapped event
+                //Detail = new NavigationPage((Page) Activator.CreateInstance(typeof(ViewProductPage)));
+                var page = (Page)Activator.CreateInstance(typeof(ViewProductPage));
+                page.Title = "Browse Product";
+                Detail = new NavigationPage(page);
                 IsPresented = false;
             }
             catch (Exception ex)
@@ -120,7 +146,13 @@ namespace SwapShuffle.View
             }
             else
             {
-                Detail = new NavigationPage((Page)Activator.CreateInstance(page));
+                //Detail.Title = item.Title;
+                //Detail = new NavigationPage((Page)Activator.CreateInstance(page));
+              
+                var page1 = (Page)Activator.CreateInstance(page);
+                page1.Title = item.Title;
+                Detail = new NavigationPage(page1);
+
             }
             IsPresented = false;
         }

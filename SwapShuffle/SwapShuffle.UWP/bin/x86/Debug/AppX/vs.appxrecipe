@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=c5f0988c-6935-4383-bb2f-cb5e460e2527</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>A22B87B03FBBD4194F0211A321D2FB729A1C8B879734971E991D02D9B5706839</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>78cc71f4-8558-4cec-92fa-c1d10938ebdb_1.0.0.0_x86__b2rxyer3trf44</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>78cc71f4-8558-4cec-92fa-c1d10938ebdb_b2rxyer3trf44!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-18T07:40:10.219</Modified>
+      <Modified>2019-11-21T15:01:30.350</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\SwapShuffle.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\SwapShuffle.UWP.exe">
       <PackagePath>entrypoint\SwapShuffle.UWP.exe</PackagePath>
-      <Modified>2019-11-18T07:40:05.627</Modified>
+      <Modified>2019-11-21T15:01:09.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lakha\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -726,9 +726,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2019-08-16T20:41:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle\bin\Debug\netstandard2.0\SwapShuffle.dll">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\bin\Debug\netstandard2.0\SwapShuffle.dll">
       <PackagePath>SwapShuffle.dll</PackagePath>
-      <Modified>2019-11-18T07:39:48.630</Modified>
+      <Modified>2019-11-21T15:00:55.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -738,156 +738,156 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T13:06:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.100</Modified>
+      <Modified>2019-11-21T14:57:50.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.110</Modified>
+      <Modified>2019-11-21T14:57:50.684</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.116</Modified>
+      <Modified>2019-11-21T14:57:50.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.120</Modified>
+      <Modified>2019-11-21T14:57:50.686</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.124</Modified>
+      <Modified>2019-11-21T14:57:50.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.141</Modified>
+      <Modified>2019-11-21T14:57:50.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.437</Modified>
+      <Modified>2019-11-21T14:57:50.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.447</Modified>
+      <Modified>2019-11-21T14:57:50.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.453</Modified>
+      <Modified>2019-11-21T14:57:50.694</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.457</Modified>
+      <Modified>2019-11-21T14:57:50.695</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.467</Modified>
+      <Modified>2019-11-21T14:57:50.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.470</Modified>
+      <Modified>2019-11-21T14:57:50.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.473</Modified>
+      <Modified>2019-11-21T14:57:50.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.477</Modified>
+      <Modified>2019-11-21T14:57:50.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.485</Modified>
+      <Modified>2019-11-21T14:57:50.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.488</Modified>
+      <Modified>2019-11-21T14:57:50.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.491</Modified>
+      <Modified>2019-11-21T14:57:50.703</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.500</Modified>
+      <Modified>2019-11-21T14:57:50.704</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.503</Modified>
+      <Modified>2019-11-21T14:57:50.705</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.800</Modified>
+      <Modified>2019-11-21T14:57:50.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.803</Modified>
+      <Modified>2019-11-21T14:57:50.707</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.815</Modified>
+      <Modified>2019-11-21T14:57:50.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.823</Modified>
+      <Modified>2019-11-21T14:57:50.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.827</Modified>
+      <Modified>2019-11-21T14:57:50.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.830</Modified>
+      <Modified>2019-11-21T14:57:50.713</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.834</Modified>
+      <Modified>2019-11-21T14:57:50.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-11-15T02:08:17.843</Modified>
+      <Modified>2019-11-21T14:57:50.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-11-15T02:08:17.849</Modified>
+      <Modified>2019-11-21T14:57:50.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\SwapShuffle.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\SwapShuffle.UWP.xr.xml">
       <PackagePath>SwapShuffle.UWP.xr.xml</PackagePath>
-      <Modified>2019-11-15T02:11:09.623</Modified>
+      <Modified>2019-11-21T14:57:52.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-11-18T07:40:05.185</Modified>
+      <Modified>2019-11-21T15:01:09.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-11-18T07:40:05.185</Modified>
+      <Modified>2019-11-21T15:01:09.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -897,13 +897,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-08-16T20:41:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-11-15T06:37:11.114</Modified>
+      <Modified>2019-11-21T15:01:27.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lakha\source\repos\SwapShuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\Core\SwapShuffle.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.UWP\bin\x86\Debug\Core\SwapShuffle.UWP.exe">
       <PackagePath>SwapShuffle.UWP.exe</PackagePath>
-      <Modified>2019-11-18T07:40:10.174</Modified>
+      <Modified>2019-11-21T15:01:30.311</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
