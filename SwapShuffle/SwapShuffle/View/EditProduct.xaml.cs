@@ -14,6 +14,7 @@ namespace SwapShuffle.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EditProduct : ContentPage
     {
+        string path;
 
         Product productDetails;
 
@@ -99,6 +100,11 @@ namespace SwapShuffle.View
                 //    DisplayAlert("Message", "Data Failed To Update", "Ok");
                 //}
             }
+        }
+
+        private void Btn_pic_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

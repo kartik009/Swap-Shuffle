@@ -15,7 +15,7 @@
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
                 TextColor="#008fb3"
-                Text="LogIn"/>
+                Text="Log In"/>
             <BoxView HeightRequest="3" 
                      Margin="0,0,0,40"
             BackgroundColor="#00b8e6" 

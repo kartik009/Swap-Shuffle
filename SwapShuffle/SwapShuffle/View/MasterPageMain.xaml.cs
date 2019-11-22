@@ -72,7 +72,7 @@ namespace SwapShuffle.View
 
             AppUsermenuList.Add(new MasterPageItem()
             {
-                Title = "Histroy",
+                Title = "History",
                 //Icon = "contacticon.png",
                 TargetType = typeof(HistroyPage)
             });

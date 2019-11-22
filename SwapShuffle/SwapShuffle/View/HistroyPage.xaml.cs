@@ -46,7 +46,7 @@ namespace SwapShuffle.View
         }
         private void HistoryList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-
+            Navigation.PushAsync(new HistoryProductPage((Product)e.Item));
         }
     }
 }

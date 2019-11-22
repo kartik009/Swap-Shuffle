@@ -13,20 +13,35 @@
             </Label>-->
             <Label Text="{Binding Name}" />
             <!--<Label Text="{Binding Title}" />-->
+            <Label Text="{Binding cname}"/>
             <Label Text="{Binding price}" />
             <Label Text="{Binding p_description}" />
             <BoxView HeightRequest="3" 
             BackgroundColor="DarkSeaGreen" 
             HorizontalOptions="FillAndExpand" ></BoxView>
-            <ListView  x:Name="UserList" CachingStrategy="RecycleElement" ItemTapped="UserList_ItemTapped">
+            <ListView  x:Name="UserList" CachingStrategy="RecycleElement" HasUnevenRows="True" ItemTapped="UserList_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout Orientation="Vertical" Padding="8,0,8,0">
+                            <!--<StackLayout Orientation="Vertical" Padding="8,0,8,0">
                                 <Label Text="{Binding Uid}" TextColor="#000" FontSize="14" LineBreakMode="TailTruncation" />
                                 <Label Text="{Binding Name}" TextColor="#000" LineBreakMode="TailTruncation" />
                                 <Button Text="SEll" Clicked="Sell" CommandParameter="{Binding Uid}" />
-                            </StackLayout>
+                            </StackLayout>-->
+                            <Grid Padding="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"></RowDefinition>
+                                    <RowDefinition Height="30"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="0" Text="{Binding Uid}" LineBreakMode="TailTruncation"></Label>
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding Name}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
+                                <Button Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Text="SEll" Clicked="Sell" CommandParameter="{Binding Uid}"/>
+                            </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>

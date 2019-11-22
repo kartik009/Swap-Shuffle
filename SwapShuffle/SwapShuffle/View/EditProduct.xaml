@@ -17,6 +17,7 @@
                    Placeholder="description:" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_PD" />
             <Entry Margin="0,0,0,5" WidthRequest="300"
                    Placeholder="Product price :" FontSize="Small" HorizontalOptions="FillAndExpand" x:Name="Et_price" />
+            <Button x:Name="Btn_pic" Text="Upload Image" BackgroundColor="DarkBlue" TextColor="White" Clicked="Btn_pic_Clicked" />
 
             <Button  Margin="0,0,0,30"
                 BackgroundColor="DarkBlue" Text="Save" Clicked="SaveProduct"

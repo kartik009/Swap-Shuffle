@@ -1,6 +1,4 @@
-﻿
-using SwapShuffle.Helper;
-using SwapShuffle.Model;
+﻿using SwapShuffle.Model;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -22,7 +20,9 @@ namespace SwapShuffle.View
         {
             InitializeComponent();
 
-            
+            //lb_count.Text = " ";
+            //Label label = (Label)InterestedProductList.FindByName("cnt");
+            //label.Text = "1";
         }
 
         protected override void OnAppearing()
@@ -37,10 +37,12 @@ namespace SwapShuffle.View
                 new Product{Name="Science Book",
                     p_images= "book.png",
                     p_description="Book is Good",p_datetime = DateTime.Now,
+                    cname="pdf xerox",
                     p_status =false,Pid=102,Cid=11,Uid=1001,price=Convert.ToDecimal("1250.23")},
                 new Product{Name="CC Book",
                     p_images="book.png",
                     p_description="CC Book is Good",p_datetime = DateTime.Now,
+                    cname="pdf xerox",
                     p_status =false,Pid=103,Cid=11,Uid=1001,price=Convert.ToDecimal("1450.23")},
             };
 

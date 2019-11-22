@@ -44,9 +44,10 @@ namespace SwapShuffle.View
         private void UserList_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             //User Detail
+
         }
 
-        public void Sell(Object Sender, EventArgs args)
+        public async void Sell(Object Sender, EventArgs args)
         {
             Button button = (Button)Sender;
             long ID = Convert.ToInt64(button.CommandParameter.ToString());
@@ -56,9 +57,14 @@ namespace SwapShuffle.View
 
             //Entry in Histroy 
 
-            DisplayAlert("Message", "Do you want to Sell Product To "+ID+"?", "Ok");
+            bool res = await DisplayAlert("Message", "Do you want to Sell Product To "+ID+"?", "Ok","cancel");
+            if(res)
+            {
 
-            Navigation.PopToRootAsync();
+                await Navigation.PopToRootAsync();
+            }
+
+           
         }
     }
 }

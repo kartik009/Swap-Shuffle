@@ -4,6 +4,10 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "SwapShuffle.Android.dll" comes first in this list. */
 		"SwapShuffle.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"Plugin.Settings.Abstractions.dll",
 		"Plugin.Settings.dll",
 		"SwapShuffle.dll",

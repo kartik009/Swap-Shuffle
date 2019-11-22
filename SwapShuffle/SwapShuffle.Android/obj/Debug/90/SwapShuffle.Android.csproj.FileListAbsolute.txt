@@ -1016,3 +1016,5 @@ C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Deb
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\res\drawable\logo.jpg
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\Assets\Styles.css.g.cs
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\linksrc\Newtonsoft.Json.dll
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll

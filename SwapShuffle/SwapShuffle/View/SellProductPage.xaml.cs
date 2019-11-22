@@ -31,10 +31,12 @@ namespace SwapShuffle.View
                 new Product{Name="Science Book",
                     p_images= "book.png",
                     p_description="Book is Good",p_datetime = DateTime.Now,
+                    cname="Pdf Xerox",
                     p_status =false,Pid=102,Cid=11,Uid=1001,price=Convert.ToDecimal("1250.23")},
                 new Product{Name="CC Book",
                     p_images="book.png",
                     p_description="CC Book is Good",p_datetime = DateTime.Now,
+                    cname="Pdf Xerox",
                     p_status =false,Pid=103,Cid=11,Uid=1001,price=Convert.ToDecimal("1450.23")},
             };
 

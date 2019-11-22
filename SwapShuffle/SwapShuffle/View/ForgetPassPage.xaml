@@ -31,7 +31,7 @@
                 </Entry>
                 <Button Text="Next" x:Name="Bt_next" Clicked="Bt_next_Clicked" />
 
-                <Label HorizontalTextAlignment="Center" TextColor="#00b8e6" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
+                <Label HorizontalTextAlignment="Center" TextColor="#00b8e6" FontSize="Medium" x:Name="Lb_Login" Text="Click here To LogIn Page">
 
                 </Label>
 

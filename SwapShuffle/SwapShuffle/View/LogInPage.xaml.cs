@@ -1,9 +1,11 @@
-﻿using SwapShuffle.Helper;
+﻿using Newtonsoft.Json;
+using SwapShuffle.Helper;
 using SwapShuffle.Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
-
+using System.Net.Http;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,6 +15,10 @@ namespace SwapShuffle.View
     public partial class LogInPage : ContentPage
     {
         List<User> users;
+        private ObservableCollection<User> user1;
+
+        public bool IsRefreshing { get; set; }
+
         public LogInPage()
         {
             InitializeComponent();
@@ -42,6 +48,22 @@ namespace SwapShuffle.View
 
         }
 
+        public  async void GetuSer()
+        {
+            using (var client = new HttpClient())
+            {
+                // send a GET request  
+                var uri = "http://192.168.0.5/api/Masters/GetEmployees";
+                //client.GetStringAsync()
+                var result = await client.GetStringAsync(uri);
+
+                //handling the answer  
+                var EmployeeList = JsonConvert.DeserializeObject<List<User>>(result);
+
+                user1 = new ObservableCollection<User>(EmployeeList);
+                IsRefreshing = false;
+            }
+        }
         
 
         private void Btn_Login_Clicked(object sender, EventArgs e)

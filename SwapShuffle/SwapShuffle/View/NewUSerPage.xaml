@@ -81,7 +81,7 @@
                 WidthRequest="70" />
 
 
-            <Label HorizontalTextAlignment="Center" TextColor="#00b8e6" FontSize="Medium" x:Name="Lb_Login" Text="Clicke here To LogIn Page">
+            <Label HorizontalTextAlignment="Center" TextColor="#00b8e6" FontSize="Medium" x:Name="Lb_Login" Text="Click here To LogIn Page">
 
             </Label>
 
