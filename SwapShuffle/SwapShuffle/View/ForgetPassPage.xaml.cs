@@ -22,6 +22,24 @@ namespace SwapShuffle.View
             Lb_Login.GestureRecognizers.Add(LoginPAge_Tap);
         }
 
+        public async void GetUser()
+        {
+            //using (var client = new HttpClient())
+            //{
+            //    // send a GET request  
+            //    var uri = "http://192.168.0.5/api/Masters/GetEmployees";
+            //    //client.GetStringAsync()
+            //    var result = await client.GetStringAsync(uri);
+
+            //    //handling the answer  
+            //    var ProductList = JsonConvert.DeserializeObject<List<Product>>(result);
+
+            //    //Obj= new ObservableCollection<User>(ProductList);
+            //    //IsRefreshing = false;
+            //}
+
+        }
+
         private void Bt_next_Clicked(object sender, EventArgs e)
         {
             long id = long.Parse(Et_id.Text);

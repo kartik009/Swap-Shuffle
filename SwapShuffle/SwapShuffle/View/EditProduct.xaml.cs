@@ -1,8 +1,13 @@
-﻿using SwapShuffle.Helper;
+﻿using Newtonsoft.Json;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
+using Plugin.Permissions.Abstractions;
+using SwapShuffle.Helper;
 using SwapShuffle.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +19,7 @@ namespace SwapShuffle.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EditProduct : ContentPage
     {
+        private MediaFile _mediaFile;
         string path;
 
         Product productDetails;
@@ -35,7 +41,8 @@ namespace SwapShuffle.View
         }
 
         private void PopulateDetails(Product details)
-        {
+        {         
+
             //details.Pid = 108;
             Et_PName.Text = details.Name;
             Et_CId.Text = Convert.ToString(details.Cid);
@@ -45,6 +52,38 @@ namespace SwapShuffle.View
 
             saveBtn.Text = "Update";
             this.Title = "Edit Product";
+        }
+
+        public async Task<string> EditData(Product details)
+        {
+            var client = new HttpClient();
+            client.BaseAddress = new Uri("192.168.0.5:8080");
+
+            string jsonData = JsonConvert.SerializeObject(details);
+
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PutAsync("/ss/product/Edit", content);
+
+            // this result string should be something like: "{"token":"rgh2ghgdsfds"}"
+            var result = await response.Content.ReadAsStringAsync();
+
+            return result;
+        }
+
+        public async Task<string> PostData(Product product)
+        {
+            var client = new HttpClient();
+            client.BaseAddress = new Uri("192.168.0.5:8080");
+
+            string jsonData = JsonConvert.SerializeObject(product);
+
+            var content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PostAsync("/ss/Product/delete", content);
+
+            // this result string should be something like: "{"token":"rgh2ghgdsfds"}"
+            var result = await response.Content.ReadAsStringAsync();
+
+            return result;
         }
 
 
@@ -58,14 +97,19 @@ namespace SwapShuffle.View
                 details.Cid = Convert.ToInt64(Et_CId.Text);
                 details.Uid = UserSettings.Uid;
                 details.p_description = Et_PD.Text;
-                details.p_images = "icons8trial100.png";
+                details.p_images = DEmo.path;
                 details.price  = Convert.ToDecimal(Et_price.Text);
                 details.p_datetime = DateTime.Now;
+                
+                //MessagingCenter.Send<Product>(details, "AddProduct");
+                //MessagingCenter.Send<Product>(details, "AddProduct1");
 
-                MessagingCenter.Send<Product>(details, "AddProduct");
-                MessagingCenter.Send<Product>(details, "AddProduct1");
+                var f = PostData(details);
+                if (f != null)
+                {
 
-                Navigation.PopAsync();
+                    Navigation.PopAsync();
+                }
                 //bool res = DependencyService.Get<ISQLite>().SaveProduct(details);
                 //if (res)
                 //{
@@ -84,12 +128,17 @@ namespace SwapShuffle.View
                 productDetails.p_description = Et_PD.Text;
                 productDetails.price = Convert.ToDecimal(Et_price.Text);
                 productDetails.p_datetime = DateTime.Now;
+                productDetails.p_images = DEmo.path;
+                //MessagingCenter.Send<Product>(productDetails, "EditProduct");
+                //MessagingCenter.Send<Product>(productDetails, "EditProduct1");
 
-                MessagingCenter.Send<Product>(productDetails, "EditProduct");
-                MessagingCenter.Send<Product>(productDetails, "EditProduct1");
+                var f = EditData(productDetails);
 
-                Navigation.PopAsync();
+                if (f != null)
+                {
 
+                    Navigation.PopAsync();
+                }
                 //bool res = DependencyService.Get<ISQLite>().UpdateProduct(details);
                 //if (res)
                 //{
@@ -102,9 +151,30 @@ namespace SwapShuffle.View
             }
         }
 
-        private void Btn_pic_Clicked(object sender, EventArgs e)
+        private async void Btn_pic_Clicked(object sender, EventArgs e)
         {
+            await CrossMedia.Current.Initialize();
 
+            if(!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                await DisplayAlert("Message", "Photo Pick Not Supported", "ok");
+                return;
+            }
+            else
+            {
+                var storageStatus = await Plugin.Permissions.CrossPermissions.Current.CheckPermissionStatusAsync(Permission.Storage);
+                _mediaFile = await CrossMedia.Current.PickPhotoAsync();
+                if (_mediaFile == null)
+                    return;
+                path = _mediaFile.Path;
+
+                DEmo.path = _mediaFile.Path;
+                //Image image = new Image();
+                //image.Source = ImageSource.FromStream(() =>
+                //{
+                //    return _mediaFile.GetStream();
+                //});
+            }
         }
     }
 }

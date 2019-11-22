@@ -45,7 +45,7 @@
                         </Image>
                         <Label
                             FontSize="Large"
-                            Text="20xxxxxxx"
+                            Text="201812117"
                             TextColor="White" />
                     </StackLayout>
                 </Grid>

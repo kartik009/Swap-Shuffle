@@ -7,12 +7,13 @@
              x:Class="SwapShuffle.View.ViewProductDetailPage">
     <ContentPage.Content>
         <StackLayout>
-            <Image Source="{Binding p_image}" />
+            <Image Source="{Binding p_image}"  HeightRequest="200" WidthRequest="200" />
+            
             <!--<Label>
                 <Label.FormattedText/>
             </Label>-->
             <Label Text="{Binding Name}" />
-            <Label Text="{Binding Title}" />
+            <!--<Label Text="{Binding Title}" />-->
             <Label Text="{Binding price}" />
             <Label Text="{Binding cname}" />
             <Label Text="{Binding p_description}" />

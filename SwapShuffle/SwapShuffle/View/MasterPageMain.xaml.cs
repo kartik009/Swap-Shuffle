@@ -35,6 +35,10 @@ namespace SwapShuffle.View
 
             temp.Uid = UserSettings.Uid;
 
+            if(DEmo.path!=null)
+            {
+                Img_User.Source = DEmo.path;
+            }
            
             AppUsermenuList = new ObservableCollection<MasterPageItem>();
 

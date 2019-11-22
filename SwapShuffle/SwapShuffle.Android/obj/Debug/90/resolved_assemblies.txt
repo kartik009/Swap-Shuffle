@@ -4,6 +4,9 @@ C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Deb
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\mscorlib.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Plugin.Media.dll
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Plugin.Permissions.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Plugin.Settings.Abstractions.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\Plugin.Settings.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle.Android\obj\Debug\90\android\assets\SwapShuffle.dll

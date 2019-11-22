@@ -22,12 +22,13 @@ namespace SwapShuffle.View
         public LogInPage()
         {
             InitializeComponent();
-            users = new List<User>()
-            {
-                new User{ Uid = 201812043, Name ="test", Pass = "test" },
+            //Testing purpose
+            //users = new List<User>()
+            //{
+            //    new User{ Uid = 201812043, Name ="test", Pass = "test" },
 
-                new User{ Uid = 201812046, Name ="admin", Pass = "admin" },
-            };
+            //    new User{ Uid = 201812046, Name ="admin", Pass = "admin" },
+            //};
 
             var ForgetPass_Tap = new TapGestureRecognizer();
             ForgetPass_Tap.Tapped += (s, e) =>
@@ -48,29 +49,29 @@ namespace SwapShuffle.View
 
         }
 
-        public  async void GetuSer()
+        public async void GetuSer()
         {
             using (var client = new HttpClient())
             {
                 // send a GET request  
-                var uri = "http://192.168.0.5/api/Masters/GetEmployees";
+                var uri = "http://192.168.0.5/ss/User/All";
                 //client.GetStringAsync()
                 var result = await client.GetStringAsync(uri);
 
                 //handling the answer  
-                var EmployeeList = JsonConvert.DeserializeObject<List<User>>(result);
+                var UserList = JsonConvert.DeserializeObject<List<User>>(result);
 
-                user1 = new ObservableCollection<User>(EmployeeList);
+                user1 = new ObservableCollection<User>(UserList);
                 IsRefreshing = false;
             }
         }
-        
+
 
         private void Btn_Login_Clicked(object sender, EventArgs e)
         {
             if (Et_userid.Text == null && Et_pass.Text == null)
             {
-                DisplayAlert("App Name", "Empty Field", "Ok");
+                DisplayAlert("S&S", "Empty Field", "Ok");
             }
             else
             {
@@ -78,7 +79,7 @@ namespace SwapShuffle.View
                 int id_len = (int)Math.Floor(Math.Log10(id) + 1);
                 if (id_len == 9)
                 {
-                    var temp = users.FirstOrDefault(c => c.Uid == long.Parse(Et_userid.Text) && c.Pass == Et_pass.Text) as User;
+                    var temp = user1.FirstOrDefault(c => c.Uid == long.Parse(Et_userid.Text) && c.Pass == Et_pass.Text) as User;
 
                     if (temp != null)
                     {
@@ -95,12 +96,12 @@ namespace SwapShuffle.View
                     }
                     else
                     {
-                        DisplayAlert("App Name", "User Id and Password are incorrect", "Ok");
+                        DisplayAlert("S&S", "User Id and Password are incorrect", "Ok");
                     }
                 }
                 else
                 {
-                    DisplayAlert("App Name", "User Id Is not valid", "Ok");
+                    DisplayAlert("S&S", "User Id Is not valid", "Ok");
                 }
 
             }

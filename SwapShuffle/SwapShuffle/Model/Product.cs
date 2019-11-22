@@ -10,7 +10,7 @@ namespace SwapShuffle.Model
 
         public long Cid { get; set; }
 
-        public string cname { get; set; }
+
         public long Uid { get; set; }
 
         public string p_images { get; set; }

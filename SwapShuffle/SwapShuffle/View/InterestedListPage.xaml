@@ -27,7 +27,7 @@
                                 <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" FontAttributes="Bold" LineBreakMode="TailTruncation"></Label>
                                 <Label Grid.Row="2" Grid.Column="1" Text="{Binding price,StringFormat='Price : {0}Rs'}" Font="Small"  TextColor="Gray" LineBreakMode="TailTruncation"></Label>
                                 <Label Grid.Row="1" Grid.Column="1" Text="{Binding cname,StringFormat='Category : {0}'}" TextColor="Gray" LineBreakMode="TailTruncation"></Label>
-                                <Label x:Name="cnt" Text="Interested User : 2" LineBreakMode="TailTruncation" TextColor="Gray" Grid.Row="3" Grid.Column="1"></Label>
+                                <Label x:Name="cnt" Text="{Binding InUSer,StringFormat='Interested User : {0}'}" LineBreakMode="TailTruncation" TextColor="Gray" Grid.Row="3" Grid.Column="1"></Label>
                                 <Image Grid.Row="0" Grid.RowSpan="4" Grid.Column="0" Source="{Binding p_images}" WidthRequest="80" HeightRequest="80"/>
                                 
                             </Grid>

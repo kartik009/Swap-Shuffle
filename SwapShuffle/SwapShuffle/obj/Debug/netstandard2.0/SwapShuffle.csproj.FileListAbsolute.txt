@@ -31,6 +31,7 @@ C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netst
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\EditProduct.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\ForgetPassPage.xaml.g.cs
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\HistoryProductPage.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\HistroyPage.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\InterestedListPage.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\InterestedUser.xaml.g.cs
@@ -44,7 +45,7 @@ C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netst
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\ViewProductPage.xaml.g.cs
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\SwapShuffle.AssemblyInfoInputs.cache
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\SwapShuffle.AssemblyInfo.cs
+C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\SwapShuffle.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\ref\SwapShuffle.dll
 C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\SwapShuffle.pdb
-C:\Users\lakha\Source\Repos\Swap-Shuffle\SwapShuffle\SwapShuffle\obj\Debug\netstandard2.0\View\HistoryProductPage.xaml.g.cs
